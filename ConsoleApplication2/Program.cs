@@ -59,6 +59,7 @@ namespace ConsoleApplication2
             for (int i = 0; i < cityIndex; i++)
             {
                 Console.WriteLine(cities[i].Name + "---" + cities[i].Population + "---" + cities[i].Density);
+                //should contain ";" in the end of the string, and should not contain scaces, but it's only a parsing... ='(
             }
         }
     }
